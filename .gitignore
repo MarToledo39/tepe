@@ -1,0 +1,15 @@
+# Archivos del sistema de macOS
+.DS_Store
+
+# Dependencias (se reinstalan con npm install)
+node_modules/
+
+# Archivos internos de Expo
+.expo/
+
+# Configuración personal de Claude Code en esta compu
+.claude/settings.local.json
+
+# Claves secretas: nunca se suben al repositorio
+.env
+.env.*
