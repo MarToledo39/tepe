@@ -6,6 +6,30 @@ node_modules/
 
 # Archivos internos de Expo
 .expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Carpetas nativas generadas (se crean solas al compilar)
+/ios
+/android
+.kotlin/
+
+# Archivos de firma y certificados: nunca se suben
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Archivos temporales de herramientas
+*.orig.*
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
 
 # Configuración personal de Claude Code en esta compu
 .claude/settings.local.json
