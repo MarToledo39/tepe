@@ -18,7 +18,6 @@ export const colors = {
   text: '#131B28',
   textSecondary: '#666E7B',
   border: '#D9E1EE',
-  // Provisorio: Mar lo aclaró a mano en Figma. Confirmar el valor final.
   surface: '#E9F1FE',
   background: '#FFFFFF',
 } as const;

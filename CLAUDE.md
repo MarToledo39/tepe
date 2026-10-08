@@ -134,7 +134,7 @@ Botón "?" en las pantallas más complejas y una sección de ayuda con artículo
 | Texto principal | `#131B28` |
 | Texto secundario | `#666E7B` |
 | Borde | `#D9E1EE` |
-| Superficie | `#E9F1FE` (Mar lo aclaró a mano en Figma: **confirmá el valor final con ella**) |
+| Superficie | `#E9F1FE` (confirmado por Mar) |
 | Fondo | `#FFFFFF` |
 
 ### Diagonal (recurso gráfico de la marca)
@@ -196,7 +196,6 @@ Una fase por sesión. Cada una termina cuando se puede probar en el celular y qu
 - Qué pasa con los colores cuando un TP tiene más de 5 puntos o fases: ¿se repiten desde el primero o se usan variantes más claras?
 - ¿Se mantiene el login con Google o solo mail?
 - Qué modelo de lenguaje se usa (probar Luna y DeepSeek Flash con una consigna real).
-- Valor final del color de superficie.
 - Dominio para los mails.
 
 ## Recursos en esta carpeta

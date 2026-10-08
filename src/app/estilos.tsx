@@ -9,7 +9,7 @@ const neutrals = [
   { name: 'Texto principal', value: colors.text },
   { name: 'Texto secundario', value: colors.textSecondary },
   { name: 'Borde', value: colors.border },
-  { name: 'Superficie (provisorio)', value: colors.surface },
+  { name: 'Superficie', value: colors.surface },
   { name: 'Fondo', value: colors.background },
 ];
 
