@@ -6,11 +6,11 @@ import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { colors, radius, spacing, type } from '@/constants/tokens';
 
 const neutrals = [
-  { name: 'Texto principal', value: colors.text },
-  { name: 'Texto secundario', value: colors.textSecondary },
-  { name: 'Borde', value: colors.border },
-  { name: 'Superficie', value: colors.surface },
-  { name: 'Fondo', value: colors.background },
+  { name: 'Texto principal', hex: colors.text },
+  { name: 'Texto secundario', hex: colors.textSecondary },
+  { name: 'Borde', hex: colors.border },
+  { name: 'Superficie', hex: colors.surface },
+  { name: 'Fondo', hex: colors.background },
 ];
 
 export default function StylesScreen() {
@@ -40,9 +40,9 @@ export default function StylesScreen() {
       <View style={styles.list}>
         {neutrals.map((n) => (
           <View key={n.name} style={styles.neutral}>
-            <View style={[styles.dot, styles.bordered, { backgroundColor: n.value }]} />
+            <View style={[styles.dot, styles.bordered, { backgroundColor: n.hex }]} />
             <Text style={[type.label, styles.flex]}>{n.name}</Text>
-            <Text style={type.caption}>{n.value}</Text>
+            <Text style={type.caption}>{n.hex}</Text>
           </View>
         ))}
       </View>
